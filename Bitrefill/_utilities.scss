@@ -1,0 +1,40 @@
+.container {
+  max-width: $website-width;
+  margin: auto;
+  padding: 0 1.5rem;
+  overflow: hidden;
+}
+
+.section-title {
+  font-size: 3rem;
+}
+
+.lead {
+  font-size: 1.8rem;
+}
+
+.py {
+  &-1 {
+    padding: 1rem 0;
+  }
+  &-2 {
+    padding: 2rem 0;
+  }
+  &-3 {
+    padding: 3rem 0;
+  }
+  &-4 {
+    padding: 4rem 0;
+  }
+}
+
+
+.bg {
+  &-blue {
+    background: $bg-color;
+  }
+}
+
+.bg-dark {
+  background: #333;
+}

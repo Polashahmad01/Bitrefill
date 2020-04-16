@@ -1,0 +1,120 @@
+// Navigation
+#main-nav {
+  display: block;
+
+  #logo {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: -3.7rem;
+  }
+
+  ul {
+    display: block;
+    text-align: center;
+    margin-top: -2.5rem;
+  }
+
+  li {
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+  }
+
+  .account-open {
+    display: block;
+    text-align: center;
+  }
+}
+
+
+// Home Crypto
+#home {
+  .item {
+    grid-template-columns: repeat(1, 1fr);
+
+    .btn-main {
+      display: block;
+      padding: .7rem .7rem;
+    }
+
+    .logo {
+      display: block;
+      text-align: center;
+
+      img {
+        width: 12%;
+      }
+    }
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0.7rem 0;
+  }
+
+  p {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}
+
+
+// Section: Features
+#features {
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+
+    .item {
+      padding: 1rem;
+      text-align: center;
+    }
+  }
+}
+
+
+// Section: Testimonials
+#testimonial {
+  .section-title {
+    font-size: 2.3rem;
+  }
+
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+// Section: Collection
+#Collection {
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  p {
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+// Section: Footer Link
+#footer-link {
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}
+
+
+// Footer
+#main-footer {
+  .container {
+    p {
+      font-size: 0.8rem;
+    }
+  }
+}
